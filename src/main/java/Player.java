@@ -3,12 +3,12 @@
  */
 public class Player {
 
-    private int player_number;
+    private int playerNumber;
 
-    public Player(int player_number)
+    public Player(int number)
     {
-        System.out.println(player_number);
+        System.out.println(number);
 
-        this.player_number = player_number;
+        this.playerNumber = number;
     }
 }
