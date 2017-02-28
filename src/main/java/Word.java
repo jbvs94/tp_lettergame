@@ -5,10 +5,10 @@ public class Word {
 
     private String word;
 
-    public boolean isOk(){
+    /*public boolean isOk(){
 
         return false;
-    }
+    }*/
 
     public Word(String str) {
         this.word = str;

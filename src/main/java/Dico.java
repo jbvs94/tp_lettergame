@@ -13,7 +13,7 @@ public class Dico {
 
     public Dico() {
         this.getWords();
-        //this.putInDictionnaire();
+
     }
 
     public void getWords(){
@@ -43,6 +43,25 @@ public class Dico {
 
     }
 
-    
+    public boolean checkWord(String word) {
+
+        int i;
+        String check;
+
+        for (i=0; i < 48287; i++){
+            check = (String) this.dictionnaire.get(i);
+
+            if(check.equals(word)) {
+
+                System.out.println("true");
+
+                return true;
+            }
+        }
+
+        System.out.println("false");
+
+        return false;
+    }
 }
 
