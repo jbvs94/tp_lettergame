@@ -19,8 +19,11 @@ public class Dico {
     public void getWords(){
 
         try {
-            BufferedReader in = new BufferedReader(new FileReader("src/main/resources/dico.txt"));
-            // Pour en ligne de commande : BufferedReader in = new BufferedReader(new FileReader("../resources/dico.txt"));
+            //avec IntelliJ IDEA :
+            //BufferedReader in = new BufferedReader(new FileReader("src/main/resources/dico.txt"));
+
+            // Pour en ligne de commande :
+            BufferedReader in = new BufferedReader(new FileReader("../resources/dico.txt"));
 
             //int i=0;
 

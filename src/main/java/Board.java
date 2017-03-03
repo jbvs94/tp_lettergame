@@ -10,14 +10,14 @@ public class Board {
 
     }
 
-    public void takeLetter(){
+    /*public void takeLetter(){
 
 
-        
+        int rand;
 
         String newLetter;
         Letter letter = new Letter(newLetter);
-    }
+    }*/
 
 
 }

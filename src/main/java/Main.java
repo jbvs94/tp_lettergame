@@ -26,6 +26,7 @@ public class Main {
         System.out.println("Hello World");
         System.out.println("Bonjour, le jeu Letter Game va commencer\n");
         //System.out.println("Choisi un nombre de joueur compris entre 1 et 4");
+        System.out.println("Vous êtes le joueur 1.");
 
     }
 
