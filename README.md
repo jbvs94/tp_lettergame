@@ -1,9 +1,9 @@
 Ceci est le jeu LetterGame.
 
-Pour compiler il faut aller dans le dossier src/main/java.\
+Pour compiler il faut aller dans le dossier src/main/java.
 Puis utiliser ces ligne de commande pour compiler :
 
-javac Main.java -Xlint\
+javac Main.java -Xlint
 java Main
 
 Le jeu n'est pas terminer.
